@@ -1,0 +1,16 @@
+{
+    "name": "IndBuildCraft Auth Service",
+    "version": "0.0.0",
+    "description": "IndBuildCraft Auth Service Api DOCS",
+    "title": "IBC API",
+    "url" : "",
+    "order": [
+      "Error",
+      "Define",
+      "PostTitleAndError",
+      "PostError"
+    ],
+    "header": {
+      "title": "IndBuildCraft"
+    }
+  }

@@ -1,0 +1,31 @@
+{
+    "ENV": "PROD",
+    "PROTOCOL": "http",
+    "IP": "localhost",
+    "PORT": "30090",
+    "EMAIL": {
+        "LOGIN": "",
+        "PASSWORD": ""
+    },
+    "WEB": {
+        "URL": "http://localhost:30091"
+    },
+    "RECAPTCHA_SECRET": "",
+    "BCRYPT_SALT_ROUND": 4,
+    "SSL": {
+        "KEY": "privkey.pem",
+        "CERT": "cert.pem"
+    },
+    "JWT": {
+        "PRIVATEKEY": "private.key",
+        "PUBLICKEY": "public.key",
+        "ALGORITHM": "RS256"
+    },
+    "DB_DIALECT": "MYSQL",
+    "MYSQL": {
+        "HOST": "localhost",
+        "SERVER": "launcher",
+        "USER": "",
+        "PASSWORD": ""
+    }
+}
